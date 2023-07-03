@@ -1,1 +1,1 @@
-# Earthquake-Map
+# Earthquake Magnitude-Map
