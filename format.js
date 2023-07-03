@@ -24,8 +24,9 @@ let baseMaps = {
 googleHybrid.addTo(map);
 
 function getMarkerRadius(mag) {
-    const scalingFactor = 2;
-    return (mag * scalingFactor);
+    const scalingFactor = 5;
+
+    return (Math.sqrt(mag) * scalingFactor);
 }
 // #F0A36B
 function getColor(mag) {
